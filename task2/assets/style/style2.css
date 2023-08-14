@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'courier new', monospace;
+}
+body{
+  padding: 20px; 
+  margin: 20px; 
+}
+
+header {
+    background-image: url("../images/design1_image2.jpg");
+    width: 95%; 
+    height: 200px; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 50px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h1 {
+    position: absolute;
+    bottom: 90%;
+    left: 45%;
+    transform: translateX(-90%);
+    font-size: 2.3rem;
+}
+h2 {
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    background-color: white;
+    color: black;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 90%;
+    left: 6.5%;
+    font-size: 110%; 
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.navbar {
+    position: absolute;
+    top: 5%;
+    right:3%;
+}
+.navbar :hover{
+    background-color: green;
+}
+.navbar>a  {
+    text-decoration: none;
+    border: 1px solid blue;
+    background-color:blue;
+    color: white;
+    margin-right: 0.5rem;
+    padding: 0.3rem 1rem;
+    box-shadow: 0px 3px 5px 0 black;
+    font-style: normal;
+}
+.lista{
+    position: absolute;
+    left: 30%;
+    top:70%;
+}
+.mission-vision-info {
+    width: 1000px; 
+    padding: 0;
+    position: absolute; 
+    top: -50px; 
+    left: -160px; 
+}
+
+.mission-vision-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding-left: 1em;
+}
+.simple-list{
+    font-size: 20px;
+}
