@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'courier new', monospace;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main {
+    padding: 20px;
+}
+.header-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.navbar>a {
+    text-decoration: none;
+    border: 1px solid blue;
+    background-color:blue;
+    color: white;
+    margin-right: 0.5rem;
+    padding: 0.3rem 1rem;
+    box-shadow: 0px 3px 5px 0 black;
+    font-style: normal;
+}
+.active {
+    background-color: green!important;
+}
+img {
+    max-width: 15%;
+    height: auto;
+}
+
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .header-contenedor {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .navbar{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .navbar a {
+        width: 15rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .alt {
+        width: 60%;
+    }
+
+    
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="date"] {
+        padding: 5px;
+    }
+    
+    label {
+        text-align: center;
+    }
+    
+    fieldset {
+        margin: 10px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 100%) {
+    form {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        max-width: 70%;
+        height: auto;
+    }
+    
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="date"] {
+        padding: 5px;
+    }
+    
+    label {
+        text-align: center;
+    }
+    
+    fieldset {
+        margin: 10px;
+    }
+}
